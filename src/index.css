@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --navy: #0A1F44;
+  --red: #C0392B;
+  --background: #f9f9f9;
+  --text-main: #1A1A1A;
+  --text-muted: #64748B;
+  --border-subtle: #E2E8F0;
+  --surface-container-low: #f3f3f4;
+  --surface-container-lowest: #ffffff;
+  --surface-container: #eeeeee;
+
+  --scrollbar-track: #f1f1f1;
+  --scrollbar-thumb: #c5c6cf;
+  --scrollbar-thumb-hover: #75777f;
+}
+
+.dark {
+  --navy: #93C5FD; /* Bright sky blue for text and high-contrast accents */
+  --red: #F87171;  /* High-contrast coral red/pink */
+  --background: #0B0F19; /* High-contrast very dark slate background */
+  --text-main: #F8FAFC;  /* High-contrast bright slate/white */
+  --text-muted: #94A3B8; /* Muted slate gray */
+  --border-subtle: #1E293B; /* Slate-800 border */
+  --surface-container-low: #0F172A; /* Slate-900 container background */
+  --surface-container-lowest: #020617; /* Darkest slate-950 container background */
+  --surface-container: #1E293B; /* Slate-800 container background */
+
+  --scrollbar-track: #0f172a;
+  --scrollbar-thumb: #334155;
+  --scrollbar-thumb-hover: #475569;
+}
+
+@theme {
+  --font-sans: "Open Sans", sans-serif;
+  
+  --color-navy: var(--navy);
+  --color-red: var(--red);
+  --color-background: var(--background);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-border-subtle: var(--border-subtle);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container: var(--surface-container);
+  
+  --radius-none: 0px;
+  --radius-sm: 0.125rem;
+  --radius-default: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
