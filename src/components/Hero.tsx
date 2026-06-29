@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
-import jayitaPortrait from "../assets/images/file_0000000087787208a17f53bce397c553.png";
+import jayitaPortrait from "../assets/images/jayita_office_desk_1782659567336.jpg";
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -146,7 +146,7 @@ export default function Hero() {
             STRATEGIC OPERATIONS & GROWTH
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-navy leading-tight tracking-tight">
-            Jayita S : Turning Vision into{" "}
+            Jayita S Gupta: Turning Vision into{" "}
             <span className="text-red">Scalable Execution</span>
           </h1>
           <p className="text-lg sm:text-xl text-text-muted leading-relaxed max-w-[520px]">

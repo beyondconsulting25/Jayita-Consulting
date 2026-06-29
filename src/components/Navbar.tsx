@@ -107,7 +107,7 @@ export default function Navbar({ currentPage, setCurrentPage, theme, toggleTheme
           className="text-2xl font-bold text-navy dark:text-white hover:opacity-90 transition-opacity flex items-center gap-1.5"
           id="nav-logo"
         >
-          Jayita Consulting Portfolio
+          Jayita S Gupta
         </a>
 
         {/* Desktop Nav */}

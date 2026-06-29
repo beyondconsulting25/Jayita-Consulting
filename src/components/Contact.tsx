@@ -18,7 +18,7 @@ export default function Contact({
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submittedData, setSubmittedData] = useState<BookingInquiry | null>(null);
 
-  const servicesList = ["Pitch Deck", "Business Plan", "Fractional COO", "Growth Strategy"];
+  const servicesList = ["Pitch Deck", "Business Plan", "Fractional COO", "Growth Strategy", "Other"];
 
   const handleCheckboxChange = (service: string) => {
     if (servicesRequired.includes(service)) {
@@ -153,17 +153,6 @@ export default function Contact({
                 </button>
               </div>
             </div>
-
-            {/* Alex Rivera testimonial card */}
-            <div className="p-8 bg-surface-container dark:bg-slate-900/60 rounded-lg border-l-4 border-navy space-y-4 shadow-sm">
-              <p className="italic text-navy font-semibold text-base sm:text-lg leading-relaxed">
-                "Jayita transformed our operational chaos into a predictable engine of growth. Her pitch deck narrative was the key to our $12M Series A."
-              </p>
-              <div>
-                <p className="text-[14px] font-bold text-navy">Alex Rivera</p>
-                <p className="text-[12px] text-text-muted">CEO, Flux Technologies</p>
-              </div>
-            </div>
           </div>
 
           {/* Right Column: Request Strategy Session Form / Ticket */}
@@ -243,6 +232,7 @@ export default function Contact({
                         <option>Series A / B</option>
                         <option>Growth Stage</option>
                         <option>Enterprise</option>
+                        <option>Other</option>
                       </select>
                     </div>
                   </div>
