@@ -218,7 +218,7 @@ export default function About() {
               Chief Operating Officer with <strong>20+ years</strong> driving business transformation, marketing-led growth, and market expansion — with cross-border stakeholder exposure across EMEA, APAC, and the US.
             </p>
             <p className="text-sm sm:text-base text-text-muted leading-relaxed font-medium">
-              I report directly to founders and the Board on strategy, transformation, and growth. Well-versed in investor relations, M&A due diligence, and cross-functional leadership spanning Operations, Marketing, and Sales.
+              I help founders and the Board on strategy, transformation, and growth. Well-versed in investor relations, M&A due diligence, and cross-functional leadership spanning Operations, Marketing, and Sales. Beyond my executive role, I'm an entrepreneur, consultant, and content strategist — deeply invested in India's startup ecosystem and passionate about helping founders and leaders build with clarity and purpose.
             </p>
 
             {/* AI-Native Daily Workflow Badge */}
