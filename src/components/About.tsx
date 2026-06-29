@@ -257,8 +257,8 @@ export default function About() {
               </div>
             </div>
           </ScrollReveal>
-
-             {/* AI-Native Daily Workflow Badge */}
+ </div>
+   {/* AI-Native Daily Workflow Badge */}
             <div className="p-4 bg-[#f8fafc] dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg space-y-2.5">
               <div className="flex items-center gap-2">
                 <Cpu className="w-5 h-5 text-red" />
@@ -272,9 +272,6 @@ export default function About() {
               </p>
             </div>
           </ScrollReveal>
-          
-        </div>
-
         {/* Polished Interactive Sub-Dashboard for detailed Journey, Advisory, and Academics */}
         <div className="space-y-8 pt-10 border-t border-border-subtle dark:border-border-subtle/20">
           
