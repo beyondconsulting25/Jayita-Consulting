@@ -21,7 +21,9 @@ export default function Portfolio({ onExploreMore }: PortfolioProps) {
     "Strategy",
     "Market Research",
     "Presentations",
-    "Courses"
+    "Frameworks",
+    "Courses",
+    "Other"
   ];
 
   // Slice exactly the first 6 projects to showcase on the homepage
