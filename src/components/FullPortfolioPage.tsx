@@ -29,7 +29,10 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
     "Strategy",
     "Market Research",
     "Presentations",
+    “Financial Reporting”,
+    “Frameworks,
     "Courses"
+    “Others”,
   ];
 
   // Filter based on selected category, industry, and search input
@@ -40,10 +43,10 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
       if (selectedCategory === "Strategy") return project.badge === "Strategy";
       if (selectedCategory === "Market Research") return project.badge === "Market Research";
       if (selectedCategory === "Presentations") return project.badge === "Presentation";
-      if (selectedCategory === "Courses") return project.badge === "Financial Reporting";
-      if (selectedCategory === "Courses") return project.badge === "Frameworks";
-      if (selectedCategory === "Courses") return project.badge === "Course";
-      if (selectedCategory === "Courses") return project.badge === "Other";
+      if (selectedCategory === "Financial Reporting") return project.badge === "Financial Reporting";
+      if (selectedCategory === "Frameworks") return project.badge === "Frameworks";
+      if (selectedCategory === "Courses") return project.badge === "Courses";
+      if (selectedCategory === "Other") return project.badge === "Other";
       return true;
     })();
 
