@@ -29,10 +29,10 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
     "Strategy",
     "Market Research",
     "Presentations",
-    “Financial Reporting”,
-    “Frameworks,
+    "Financial Reporting”,
+    "Frameworks",
     "Courses"
-    “Others”,
+    "Others",
   ];
 
   // Filter based on selected category, industry, and search input
