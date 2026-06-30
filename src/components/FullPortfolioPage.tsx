@@ -108,7 +108,7 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
               The Strategic Ledger
             </h1>
             <p className="text-base sm:text-lg text-white/80 leading-relaxed font-normal">
-              A comprehensive archive of 25 corporate scaling interventions, financial restructurings, and pitch decks designed by Jayita S Gupta.
+              A comprehensive archive of 25 corporate scaling interventions, financial restructurings, and pitch decks designed by Jayita S.
             </p>
           </div>
         </div>
