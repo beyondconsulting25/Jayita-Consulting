@@ -31,8 +31,8 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
     "Presentations",
     "Financial Reporting",
     "Frameworks",
-    "Courses"
-    "Others",
+    "Courses",
+    "Others"
   ];
 
   // Filter based on selected category, industry, and search input
