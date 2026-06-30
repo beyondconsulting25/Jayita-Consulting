@@ -39,9 +39,9 @@ export default function Portfolio({ onExploreMore }: PortfolioProps) {
         if (selectedCategory === "Market Research") return p.badge === "Market Research";
         if (selectedCategory === "Presentations") return p.badge === "Presentation";
        if (selectedCategory === "Financial Reporting") return p.badge === "Financial Reporting";
-       if (selectedCategory === "Frameworks") return p.badge === "Frameworks";
+       if (selectedCategory === "Frameworks") return p.badge === "Framework";
         if (selectedCategory === "Courses") return p.badge === "Course";
-       if (selectedCategory === "Others") return p.badge === "Others";
+       if (selectedCategory === "Others") return p.badge === "Other";
         return true;
       });
 
