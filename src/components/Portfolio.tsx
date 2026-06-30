@@ -15,15 +15,16 @@ export default function Portfolio({ onExploreMore }: PortfolioProps) {
   const [showSampleUnlocker, setShowSampleUnlocker] = useState<boolean>(false);
 
   const categories = [
-    "All Work",
+   "All Work",
     "Pitch Decks",
     "Business Plans",
     "Strategy",
     "Market Research",
     "Presentations",
-    "Frameworks",
-    "Courses",
-    "Other"
+    “Financial Reporting”,
+    “Frameworks,
+    "Courses”,
+    “Others”
   ];
 
   // Slice exactly the first 6 projects to showcase on the homepage
@@ -37,7 +38,10 @@ export default function Portfolio({ onExploreMore }: PortfolioProps) {
         if (selectedCategory === "Strategy") return p.badge === "Strategy";
         if (selectedCategory === "Market Research") return p.badge === "Market Research";
         if (selectedCategory === "Presentations") return p.badge === "Presentation";
+       if (selectedCategory === "Financial Reporting") return p.badge === "Financial Reporting";
+       if (selectedCategory === "Frameworks") return p.badge === "Frameworks";
         if (selectedCategory === "Courses") return p.badge === "Course";
+       if (selectedCategory === "Others") return p.badge === "Others";
         return true;
       });
 
