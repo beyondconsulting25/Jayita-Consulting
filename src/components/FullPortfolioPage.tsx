@@ -40,7 +40,10 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
       if (selectedCategory === "Strategy") return project.badge === "Strategy";
       if (selectedCategory === "Market Research") return project.badge === "Market Research";
       if (selectedCategory === "Presentations") return project.badge === "Presentation";
+      if (selectedCategory === "Courses") return project.badge === "Financial Reporting";
+      if (selectedCategory === "Courses") return project.badge === "Frameworks";
       if (selectedCategory === "Courses") return project.badge === "Course";
+      if (selectedCategory === "Courses") return project.badge === "Other";
       return true;
     })();
 
