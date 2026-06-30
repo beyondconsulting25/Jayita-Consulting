@@ -44,7 +44,7 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
       if (selectedCategory === "Market Research") return project.badge === "Market Research";
       if (selectedCategory === "Presentations") return project.badge === "Presentation";
       if (selectedCategory === "Financial Reporting") return project.badge === "Financial Reporting";
-      if (selectedCategory === "Frameworks") return project.badge === "Frameworks";
+      if (selectedCategory === "Frameworks") return project.badge === "Framework";
       if (selectedCategory === "Courses") return project.badge === "Courses";
       if (selectedCategory === "Other") return project.badge === "Other";
       return true;
