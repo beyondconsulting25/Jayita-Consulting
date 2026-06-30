@@ -29,10 +29,7 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
     "Strategy",
     "Market Research",
     "Presentations",
-    "Financial Reporting",
-    "Frameworks",
-    "Courses",
-    "Others"
+    "Courses"
   ];
 
   // Filter based on selected category, industry, and search input
@@ -43,10 +40,7 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
       if (selectedCategory === "Strategy") return project.badge === "Strategy";
       if (selectedCategory === "Market Research") return project.badge === "Market Research";
       if (selectedCategory === "Presentations") return project.badge === "Presentation";
-      if (selectedCategory === "Financial Reporting") return project.badge === "Financial Reporting";
-      if (selectedCategory === "Frameworks") return project.badge === "Framework";
-      if (selectedCategory === "Courses") return project.badge === "Courses";
-      if (selectedCategory === "Other") return project.badge === "Other";
+      if (selectedCategory === "Courses") return project.badge === "Course";
       return true;
     })();
 
@@ -114,7 +108,7 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
               The Strategic Ledger
             </h1>
             <p className="text-base sm:text-lg text-white/80 leading-relaxed font-normal">
-              A comprehensive archive of corporate scaling interventions, financial restructurings, and pitch decks designed by Jayita S.
+              A comprehensive archive of 25 corporate scaling interventions, financial restructurings, and pitch decks designed by Jayita S Gupta.
             </p>
           </div>
         </div>

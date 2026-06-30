@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
           <div className="md:col-span-5 flex justify-start md:justify-end">
             <a
-              href="https://www.linkedin.com/newsletters/she-means-business-7359204731958779907"
+              href="https://www.linkedin.com/newsletters/70560329b41041228d0b/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-navy text-white dark:bg-red hover:opacity-90 active:scale-95 px-5 py-3 rounded text-xs font-bold uppercase tracking-wider shadow-sm transition-all cursor-pointer"
@@ -46,12 +46,12 @@ export default function Footer() {
           {/* Left Side branding */}
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-center md:text-left">
             <div className="space-y-1">
-              <span className="text-xl font-bold text-navy dark:text-white block">Jayita S</span>
+              <span className="text-xl font-bold text-navy dark:text-white block">Jayita S Gupta</span>
               <span className="text-[11px] text-text-muted block">Strategic Advisory & Independent COO Advisory</span>
             </div>
             <span className="text-text-muted hidden md:inline">|</span>
             <span className="text-text-muted">
-              &copy; {currentYear} Jayita Consulting Portfolio. All rights reserved.
+              &copy; {currentYear} Jayita S Gupta. All rights reserved.
             </span>
           </div>
 
@@ -77,7 +77,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <a
-                href="https://www.linkedin.com/in/jayitasgupta"
+                href="https://www.linkedin.com/in/jayita-s-gupta"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-muted hover:text-navy dark:hover:text-white transition-colors p-1.5 rounded bg-navy/5 dark:bg-white/5 flex items-center justify-center cursor-pointer"

@@ -218,10 +218,22 @@ export default function About() {
               Chief Operating Officer with <strong>20+ years</strong> driving business transformation, marketing-led growth, and market expansion — with cross-border stakeholder exposure across EMEA, APAC, and the US.
             </p>
             <p className="text-sm sm:text-base text-text-muted leading-relaxed font-medium">
-              I help founders and the Board on strategy, transformation, and growth. Well-versed in investor relations, M&A due diligence, and cross-functional leadership spanning Operations, Marketing, and Sales. Beyond my executive role, I'm an entrepreneur, consultant, and content strategist — deeply invested in India's startup ecosystem and passionate about helping founders and leaders build with clarity and purpose.
+              I report directly to founders and the Board on strategy, transformation, and growth. Well-versed in investor relations, M&A due diligence, and cross-functional leadership spanning Operations, Marketing, and Sales.
             </p>
 
-            
+            {/* AI-Native Daily Workflow Badge */}
+            <div className="p-4 bg-[#f8fafc] dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg space-y-2.5">
+              <div className="flex items-center gap-2">
+                <Cpu className="w-5 h-5 text-red" />
+                <span className="text-xs font-bold text-navy dark:text-white uppercase tracking-wider flex items-center gap-1.5">
+                  AI-Native Daily Workflow
+                  <span className="inline-flex h-2 w-2 rounded-full bg-red animate-ping" />
+                </span>
+              </div>
+              <p className="text-xs text-text-muted leading-relaxed font-semibold">
+                Daily application of advanced tools like Google AI, Claude, ChatGPT, custom AI agents, and workflow automations to streamline execution, unlock capacity, and accelerate strategic reporting.
+              </p>
+            </div>
           </ScrollReveal>
 
           {/* Right Core Competencies Card Column */}
@@ -257,22 +269,9 @@ export default function About() {
                 ))}
               </div>
             </div>
-              {/* AI-Native Daily Workflow Badge */}
-            <div className="p-4 bg-[#f8fafc] dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg space-y-2.5">
-              <div className="flex items-center gap-2">
-                <Cpu className="w-5 h-5 text-red" />
-                <span className="text-xs font-bold text-navy dark:text-white uppercase tracking-wider flex items-center gap-1.5">
-                  AI-Native Daily Workflow
-                  <span className="inline-flex h-2 w-2 rounded-full bg-red animate-ping" />
-                </span>
-              </div>
-              <p className="text-xs text-text-muted leading-relaxed font-semibold">
-                Daily application of advanced tools like Google AI, Claude, ChatGPT, custom AI agents, and workflow automations to streamline execution, unlock capacity, and accelerate strategic reporting.
-              </p>
-            </div>
           </ScrollReveal>
- </div>
-  
+        </div>
+
         {/* Polished Interactive Sub-Dashboard for detailed Journey, Advisory, and Academics */}
         <div className="space-y-8 pt-10 border-t border-border-subtle dark:border-border-subtle/20">
           

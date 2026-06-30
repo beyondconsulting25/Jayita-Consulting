@@ -102,7 +102,7 @@ export default function SampleUnlocker({ project, onClose }: SampleUnlockerProps
   // Generate downloadable blueprint file dynamically
   const triggerDownload = () => {
     const content = `===========================================================
-JAYITA - STRATEGIC BLUEPRINT SAMPLE
+JAYITA S GUPTA - STRATEGIC BLUEPRINT SAMPLE
 ===========================================================
 Project Title: ${project.title}
 Asset Classification: Secure ${project.badge} Blueprint
@@ -130,7 +130,7 @@ B. Growth Vector & Market Entry Execution
 
 ===========================================================
 This sample document was unlocked securely. 
-Contact Jayita for custom enterprise consultations.
+Contact Jayita S Gupta for custom enterprise consultations.
 Email: beyondconsulting25@gmail.com
 ===========================================================`;
 
@@ -181,7 +181,7 @@ Email: beyondconsulting25@gmail.com
               <div className="flex justify-between items-end border-t border-white/10 pt-4">
                 <div className="space-y-0.5">
                   <p className="text-[9px] text-white/50 uppercase tracking-wider font-semibold">Author & Strategist</p>
-                  <p className="text-xs font-bold">Jayita</p>
+                  <p className="text-xs font-bold">Jayita S Gupta</p>
                 </div>
                 <p className="text-[10px] font-mono opacity-40">Slide 1 of 4</p>
               </div>
@@ -625,7 +625,7 @@ Email: beyondconsulting25@gmail.com
               <div className="px-4 py-2 bg-[#181818] border-t border-neutral-800 flex justify-between items-center text-[10px] text-neutral-500 font-mono">
                 <span className="flex items-center gap-1">
                   <Sparkles className="w-3 h-3 text-red animate-pulse" />
-                  Powered by Jayita Strategic Vault
+                  Powered by Jayita S Gupta Strategic Vault
                 </span>
                 <span>Zoom Optimized: {zoomLevel}%</span>
               </div>
