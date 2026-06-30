@@ -23,7 +23,7 @@ export default function Portfolio({ onExploreMore }: PortfolioProps) {
     "Presentations",
     "Financial Reporting",
     "Frameworks",
-    "Courses”,
+    "Courses",
     "Others"
   ];
 
