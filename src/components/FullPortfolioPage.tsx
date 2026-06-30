@@ -29,7 +29,7 @@ export default function FullPortfolioPage({ onBackToHome, onNavigateToContact }:
     "Strategy",
     "Market Research",
     "Presentations",
-    "Financial Reporting”,
+    "Financial Reporting",
     "Frameworks",
     "Courses"
     "Others",
